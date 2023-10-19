@@ -1,0 +1,1 @@
+python server_detect.py --source 0 --send_to_server

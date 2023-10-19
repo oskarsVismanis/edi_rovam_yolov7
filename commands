@@ -1,0 +1,1 @@
+python segment/predict.py --weights best.pt --source 'rtsp://10.13.136.78' --imgsz 1280 --name rovam
