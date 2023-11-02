@@ -1,1 +1,5 @@
-python server_detect.py --source 0 --send_to_server
+python server_predict.py --source 0 --send_to_server
+
+python server_predict.py --source 2 --imgsz 1280 --name rovam --send_to_server
+
+#when toupcam connected to laptop, set --source 2

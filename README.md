@@ -13,6 +13,10 @@ serverSocket.bind(("127.0.0.1",9090));
 ### Client
 To receive the coordinates, in edi_rovam_yolov7/added_code run
 ```
+python client.py --live
+```
+If running without a live connection to a camera, omit the --live
+```
 python client.py
 ```
 It is set to receive coordinates from local_host. For a diferrent IP, change it in line
